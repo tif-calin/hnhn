@@ -1,0 +1,11 @@
+{
+  "name": "hnhn",
+  "content_scripts": [
+    {
+      "matches": [ "https://news.ycombinator.com/*" ],
+      "js": [ "index.js" ],
+      "css": [ "index.css" ],
+      "run_at": "document_start"
+    }
+  ]
+}
